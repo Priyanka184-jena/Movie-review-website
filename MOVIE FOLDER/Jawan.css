@@ -1,0 +1,184 @@
+/* body{
+    background-color: black;
+} */
+
+/* LOGO */
+.logo{
+   width: 250px;
+}
+
+#create-logo{
+    text-shadow: 5px 2px 5px darkgray;
+    font-size: 50px;
+    color: rgb(255, 42, 42);
+    text-align: center;
+}
+
+/* Navigation */
+
+#search{
+    text-decoration: none;
+    color:#f1f1f1;
+}
+
+ul{ 
+        list-style-type: none;
+        background-color:#282A35;
+        color:#f1f1f1;
+        font-family: 'Source Sans Pro Topnav',sans-serif;
+        
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+    cursor:pointer
+}
+
+.sub1 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub1 ul li{
+    display: block;
+}
+
+ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub1{display: none;}
+
+.sub2 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub2 ul li{
+    display: block;
+}
+
+ul li:hover .sub2{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub2{display: none;}
+
+.sub3 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub3 ul li{
+    display: block;
+}
+
+ul li:hover .sub3{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub3{display: none;}
+
+.sub4 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub4 ul li{
+    display: block;
+}
+
+ul li:hover .sub4{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub4{display: none;}
+
+.sub5 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub5 ul li{
+    display: block;
+}
+
+ul li:hover .sub5{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub5{display: none;}
+
+.sub6 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub6 ul li{
+    display: block;
+}
+
+ul li:hover .sub6{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub6{display: none;}
+
+
+/* Main part */
+
+.Jawan{
+    display: flex;
+    height: 300px;
+    width: 800px;
+}
+
+#image_Jawan img{
+    background-color: blue;
+    height: 300px;
+    width:250px;
+}
+
+#Details_Jawan{
+    height: 300px;
+    width:400px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.Story{
+    text-align: justify;
+}
+
+.Review{
+    height: 500px;
+    box-shadow: 1px 1px 15px 1px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
