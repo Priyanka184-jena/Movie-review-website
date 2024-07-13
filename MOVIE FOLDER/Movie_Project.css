@@ -16,7 +16,7 @@ body{
 
 /* Navigation */
 
-#search{
+#Home{
     text-decoration: none;
     color:#f1f1f1;
 }
@@ -44,6 +44,7 @@ ul li:hover{
 .sub1 ul{
     margin: 0;
     padding: 0;
+    
 }
 
 .sub1 ul li{
@@ -55,6 +56,8 @@ ul li:hover .sub1{
     position: absolute;
     margin-left: -20px;
     margin-top: 20px;
+    color: white;
+    background-color: blue;
 }
 
 .sub1{display: none;}
