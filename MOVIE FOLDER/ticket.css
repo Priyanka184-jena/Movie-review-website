@@ -1,0 +1,61 @@
+body{
+    padding-top: 5%;
+    background-image: url(Image/ticket.jpg);
+    background-size: cover;
+}
+
+form{
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    background-color: #561b39;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+
+
+input[type="text"]{
+    padding: 5px;
+    width: 80%;
+    font-size: 18px;
+
+}
+
+input[type="email"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+   
+}
+input[type="date"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+   
+}
+label[type="time"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+   
+}
+label[type="seats"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+   
+}
+button[type="submit"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 30%;
+    
+}
+
+select{
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+}

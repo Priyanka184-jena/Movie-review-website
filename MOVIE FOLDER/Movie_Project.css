@@ -78,6 +78,7 @@ form:hover .fa{
 
 /* Navigation */
 
+
 #Home{
     text-decoration: none;
     color:#f1f1f1;
@@ -213,7 +214,23 @@ ul li:hover .sub6{
 }
 
 .sub6{display: none;}
+.sub7 ul{
+    margin: 0;
+    padding: 0;
+}
 
+.sub7 ul li{
+    display: block;
+}
+
+ul li:hover .sub7{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.sub7{display: none;}
 
 /* Images */
 
